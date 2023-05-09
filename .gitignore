@@ -1,0 +1,14 @@
+# Environment files
+.env
+db.sqlite3
+
+# Directories created by Django
+*/__pycache__/
+*/migrations/
+*/static/
+
+# IDE-generated files
+*.pyc
+*.pyo
+*.pyd
+.idea/

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        tr:first-child th, tr:first-child td {
+            border-top: 1px solid #dddddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+        tr:nth-child(odd) {
+            background-color: #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            color: #333333;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Przekierowanie</h1>
+    <table>
+        <tr>
+            <th>Pole</th>
+            <th>Wartość</th>
+        </tr>
+        <tr>
+            <td>Oryginalny URL:</td>
+            <td>{{ original_url }}</td>
+        </tr>
+        <tr>
+            <td>Skrócony URL:</td>
+            <td>{{ short_url }}</td>
+        </tr>
+    </table>
+</body>
+</html>
